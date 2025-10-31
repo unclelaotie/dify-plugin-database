@@ -1,6 +1,8 @@
 """
 数据库工具函数
 """
+import oracledb
+oracledb.init_oracle_client(lib_dir=r"/root/instantclient_11_2")
 import re
 from urllib.parse import quote_plus
 
