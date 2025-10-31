@@ -1,3 +1,5 @@
+import oracledb
+oracledb.init_oracle_client(lib_dir=r"/root/instantclient_11_2")
 from collections.abc import Generator
 from typing import Any
 import re
